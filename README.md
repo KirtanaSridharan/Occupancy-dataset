@@ -25,9 +25,26 @@ Occupancy is the target value to be used for prediction.
 I've trained the model using Neural networks and Logistic regression, written as raw codes, once with just one variable and again with two variables.
 It was observed that Neural networks gave an accuracy of 98.84% and Logistic regression gave an accuracy of 98.64%. 
 Both the algorithms gave pretty good accuracies. Let's dive in and see how this was achieved.
-
-
+* Accuracies with Neural Networks
+    * Training data with test data 1
+          Training accuracy  | Validation accuracy
+          -----------------  | -------------------
+              98.84%         |     97.07%
+    * Training data with test data 2
+       Training accuracy  | Validation accuracy 
+       -----------------  | ------------------- 
+            98.84%        |    91.97%           
+            
+* Accuracies with Logistic Regression
+    * With one variable 
+          Training accuracy  | Test accuracy 1 | Test accuracy 2 
+          -----------------  | --------------- | --------------- 
+                 97.87%      |      97.86%     |   99.14%   
+    * With two variables 
+          Training accuracy  | Test accuracy 1 | Test accuracy 2 
+          -----------------  | --------------- | --------------- 
+                 98.64%      |      97.89%     |   82.48%   
 ### Instructions to run the code:-  
-1. View the visualization of the datatraining
+1. View the visualization of the datatraining.  
 2. Check how the accuracy is obtained in Neural networks
 3. Check how the accuracy is obtained in Logistic regression with just one variable and also with two variables.
