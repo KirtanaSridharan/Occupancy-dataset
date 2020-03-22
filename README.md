@@ -27,24 +27,36 @@ It was observed that Neural networks gave an accuracy of 98.84% and Logistic reg
 Both the algorithms gave pretty good accuracies. Let's dive in and see how this was achieved.
 * Accuracies with Neural Networks
     * Training data with test data 1
-          Training accuracy  | Validation accuracy
-          -----------------  | -------------------
-              98.84%         |     97.07%
+    
+     | Training accuracy  | Validation accuracy |
+     | -----------------  | ------------------- |
+     |     98.84%         |     97.07%          |
     * Training data with test data 2
-       Training accuracy  | Validation accuracy 
-       -----------------  | ------------------- 
-            98.84%        |    91.97%           
+    
+     |   Training accuracy  | Validation accuracy |
+     |   -----------------  | ------------------- |
+     |       98.84%         |    91.97%           | 
             
 * Accuracies with Logistic Regression
     * With one variable 
-          Training accuracy  | Test accuracy 1 | Test accuracy 2 
-          -----------------  | --------------- | --------------- 
-                 97.87%      |      97.86%     |   99.14%   
+    
+    |  Training accuracy  | Test accuracy 1 | Test accuracy 2 |
+    |  -----------------  | --------------- | --------------- |
+    |         97.87%      |      97.86%     |   99.14%        |
+    
     * With two variables 
-          Training accuracy  | Test accuracy 1 | Test accuracy 2 
-          -----------------  | --------------- | --------------- 
-                 98.64%      |      97.89%     |   82.48%   
-### Instructions to run the code:-  
-1. View the visualization of the datatraining.  
-2. Check how the accuracy is obtained in Neural networks
-3. Check how the accuracy is obtained in Logistic regression with just one variable and also with two variables.
+    
+    |  Training accuracy  | Test accuracy 1 | Test accuracy 2 |
+    | --------------      | --------------- | --------------- |
+    |         98.64%      |      97.89%     |   82.48%        | 
+    
+Let's dive in and see how this was achieved.
+
+I've written the code in google colab. You can download the files and work on it if you'd like.
+1. View the file in the following order:
+    1. [Occupancy-Visualization](https://colab.research.google.com/drive/1QbQwK3mvy4LVsgF87AaAmxYqvkYjrsRw)
+    2. [Occupancy detection - Neural networks](https://colab.research.google.com/drive/1MHOY4Ocnzs-LipzXajYKV2h0mb-0ZG9c#scrollTo=c0xKW3Na54n7)
+    3. [Occupancy detection -Logistic Regression for one variable] (https://colab.research.google.com/drive/1s4o7bCubEHCQv97jzcCl9gm5vHl-_5aI#scrollTo=cSfpK3BrUqtY)
+    4. [Occupancy detection -Logistic Regression for two features] (https://colab.research.google.com/drive/1aUQz2Cbd9YTtWJUrGywWt6SfpoTvo80J#scrollTo=ZKYGlvk3TvdN)
+2. You can download the files after viewing them and work on it if you'd like.
+
