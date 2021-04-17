@@ -10,7 +10,7 @@ ventilation (HVAC) and lighting system.
 ### About the dataset:-
 
 The data set can be loaded from the following link: https://archive.ics.uci.edu/ml/datasets/Occupancy+Detection+
-It is a zip file consisting of three data sets that were used in the evaluation of the accuracy of predicting the occupancy of the room, one for training, and two for testing the models considering the office door opened and closed during occupancy. 
+It is a zip file consisting of three data sets that were used in the evaluation of the accuracy of predicting the occupancy of the room- one for training, and two for testing the models considering the office door opened and closed during occupancy. 
 The attributes in the datasets are-
 1. date on which the following physical parameters where observed and recorded
 2. Temperature of the room in Celsius
